@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-bedrock`](https://www.npmjs.com/package/@aws-sdk/client-bedrock/v/3.622.0).
+[`@aws-sdk/client-bedrock`](https://www.npmjs.com/package/@aws-sdk/client-bedrock/v/3.623.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.622.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.623.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-0R6L468nq8F1fH9otbB6RpGwn2wAA1puk1yauvnwgrJ1Q+fD+4Y+kOGxpQk4q9HA
+sha384-WqxAhgZ6xR4JP//8o1RmDGQKf4L5UyvUTRQZmljpXv6pKmMnO2eSmQJcSSvIxwA2
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-bedrock": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.622.0/index.min.mjs"
+            "@aws-sdk/client-bedrock": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.623.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.622.0/index.min.mjs": "sha384-0R6L468nq8F1fH9otbB6RpGwn2wAA1puk1yauvnwgrJ1Q+fD+4Y+kOGxpQk4q9HA"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.623.0/index.min.mjs": "sha384-WqxAhgZ6xR4JP//8o1RmDGQKf4L5UyvUTRQZmljpXv6pKmMnO2eSmQJcSSvIxwA2"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-bedrock": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.622.0/index.min.mjs"
+                        "@aws-sdk/client-bedrock": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.623.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.622.0/index.min.mjs": "sha384-0R6L468nq8F1fH9otbB6RpGwn2wAA1puk1yauvnwgrJ1Q+fD+4Y+kOGxpQk4q9HA"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock@3.623.0/index.min.mjs": "sha384-WqxAhgZ6xR4JP//8o1RmDGQKf4L5UyvUTRQZmljpXv6pKmMnO2eSmQJcSSvIxwA2"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.622.0`)
+* Always pin to a specific version (`@3.623.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-bedrock/blob/refs/tags/3.622.0/LICENSE
+https://github.com/cloud-sdk-builds/client-bedrock/blob/refs/tags/3.623.0/LICENSE
 ```
 
 ---
